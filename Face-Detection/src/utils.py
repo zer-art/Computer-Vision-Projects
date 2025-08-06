@@ -7,7 +7,7 @@ class Detection:
         
     def detect_faces(self): 
         """Original face detection method for direct camera access"""
-        cap = cv2.VideoCapture(0)
+        cap = cv2.VideoCapture(2)  # Use 2 if OBS Virtual Camera is /dev/video2
         while True:
             ret, frame = cap.read()
             if not ret:
