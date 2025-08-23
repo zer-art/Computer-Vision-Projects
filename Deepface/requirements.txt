@@ -1,0 +1,7 @@
+tensorflow==2.15.1
+deepface==0.0.93
+opencv-python==4.8.0.76
+nltk==3.9.1
+langchain==0.2.16
+fastapi==0.115.0
+uvicorn[standard]==0.30.6
