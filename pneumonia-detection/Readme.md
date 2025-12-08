@@ -13,17 +13,20 @@ This project is a web application for detecting pneumonia from pediatric chest X
     - **Training**: 4,186 images
     - **Validation**: 1,046 images
     - **Test**: 624 images
+- **Augmentation Strategy**: Random Horizontal Flip, Random Rotation (10%), Random Zoom (10%)
+- **Class Balance**: Imbalanced (Typical for medical datasets, addressed via metrics like Sensitivity/Specificity)
 
 ## Performance Metrics
 | Metric | Value |
-| :--- | :--- |
-| **Test Accuracy** | **83.33%** |
-| **Validation Accuracy** | **91.30%** |
-| **Test Loss** | 0.4574 |
-| **Validation Loss** | 0.1985 |
+| **Test Accuracy** | **81.09%** |
+| **Validation Accuracy** | **93.69%** |
+| **Test Loss** | 0.4493 |
+| **Validation Loss** | 0.1598 |
+| **Sensitivity (Recall)** | **94.87%** |
+| **Specificity** | **58.12%** |
 
 > [!NOTE]
-> Sensitivity and Specificity metrics were not explicitly logged during training.
+> **Metric Interpretation:** High sensitivity (94.87%) is excellent for disease screening, minimizing false negatives. The lower specificity (58.12%) indicates a higher rate of false positives, which is a safer trade-off in medical contexts than missing cases.
 
 ## Features
 
