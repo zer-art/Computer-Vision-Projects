@@ -211,6 +211,4 @@ This repository showcases practical applications of computer vision in:
 
 ---
 
-**Made with ❤️ by the Computer Vision Community**
-
 *Bringing AI and computer vision to real-world applications*
