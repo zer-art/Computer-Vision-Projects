@@ -32,7 +32,7 @@ logs/
 *.png
 *.log
 
-# ── Virtual environments ──────────────────────────────────────────────────────
-venv/
-.venv/
 env/
+# pixi environments
+.pixi/*
+!.pixi/config.toml
